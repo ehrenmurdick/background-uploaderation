@@ -3,7 +3,7 @@
 
 Event.observe(window, 'load', function() {
   YAHOO.widget.Uploader.SWFURL = "/assets/uploader.swf";
-  uploader = new YAHOO.widget.Uploader( "uploader");
+  uploader = new YAHOO.widget.Uploader("uploader");
 
   uploader.addListener('contentReady', function() {
     uploader.setSimUploadLimit(1);
