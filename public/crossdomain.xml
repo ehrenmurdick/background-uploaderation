@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<cross-domain-policy>
+	<site-control permitted-cross-domain-policies="by-content-type"/>
+	<allow-access-from domain="*.macromedia.com" />
+	<allow-access-from domain="*.adobe.com" />
+	<allow-access-from domain="*.adobemax08.com" />
+	<allow-access-from domain="*.photoshop.com" />
+	<allow-access-from domain="*.acrobat.com" />
+	<allow-access-from domain="*localhost*" />
+</cross-domain-policy>
