@@ -20,5 +20,5 @@ Event.observe(window, 'load', function() {
 });
 
 function start_upload() {
-  uploader.uploadAll("/uploads", "post");
+  uploader.uploadAll("/upload_handler", "post");
 }
