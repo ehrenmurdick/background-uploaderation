@@ -1,0 +1,30 @@
+.yuppie-uploader-button {
+  background-color: #999;
+  width: 81px;
+  height: 21px;
+  background-image: url(/images/button.jpg);
+}
+
+.yuppie-statusbar {
+  margin: 0;
+  background-color: #aaf;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.yuppie-statusbar-container {
+  border: 1px solid #333;
+  width: 200px;
+  height: 14px;
+  padding: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.yuppie-current-filename {
+  position: absolute;
+  font-size: 11px;
+}

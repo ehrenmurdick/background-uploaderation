@@ -1,5 +1,2 @@
-#uploader{:style => "background-color: #999; width: 120px; height: 50px;"}
-%input#filename{:type => "text", :readonly => "readonly"}
-= button_to_function "upload", "start_upload()"
-#status{:style => "border: 1px solid #333; width: 120px; height: 10px; padding: 2px;"}
-  #status_bar{:style => "margin:0; background-color: #aaf; width: 0; height: 100%;"}
+%div{:style => "padding: 200px;"}
+  = background_file_tag
