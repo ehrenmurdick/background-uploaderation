@@ -1,3 +1,6 @@
+.yuppie-container {
+}
+
 .yuppie-uploader-button {
   background-color: #999;
   width: 81px;
@@ -8,7 +11,7 @@
 .yuppie-statusbar {
   margin: 0;
   background-color: #aaf;
-  width: 50%;
+  width: 0%;
   height: 100%;
   position: absolute;
   left: 0px;

@@ -3,9 +3,8 @@ class UploadsController < ApplicationController
   end
 
   def create
-    File.open("tmp/uploads/#{params[:Filename]}", 'w') do |f|
-      f.write(params[:Filedata].read)
-    end
-    render :nothing => true
+    filename = "tmp/uploads/#{params[:Filename]}"
+    %x{cat #{params[:Filedata].path} > #{filename}}
+    render :text => filename
   end
 end
