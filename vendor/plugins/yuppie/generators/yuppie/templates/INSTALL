@@ -1,0 +1,4 @@
+
+Now just add
+   map.resources :yuppie_uploads
+to your config/routes!"

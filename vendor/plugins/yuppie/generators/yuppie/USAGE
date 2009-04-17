@@ -1,0 +1,5 @@
+Description:
+    Install the yuppie uploads controller and model
+
+Example:
+    ./script/generate yuppie
